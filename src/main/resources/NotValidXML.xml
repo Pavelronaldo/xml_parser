@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medicines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="Medications.xsd">
+    <another-medicine id="1">
+        <name>Eclipse</name>
+        <group>ANTIBIOTICS</group>
+        <pharm>Ukraine</pharm>
+        <certificate>
+            <id>1234234</id>
+            <organization>GrayCom</organization>
+            <date>2001-12-12</date>
+        </certificate>
+        <package>
+            <price>10.0</price>
+            <packageType>type1</packageType>
+            <count>10</count>
+        </package>
+        <version>CAPSULES</version>
+    </another-medicine>
+
+    <medicine id="2">
+        <name>VITAMIN-D</name>
+        <group>VITAMINS</group>
+        <pharm>UkraineCom</pharm>
+        <certificate>
+            <id>29304</id>
+            <organization>ChatyGome</organization>
+            <date>2010-11-12</date>
+        </certificate>
+        <package>
+            <price>30.0</price>
+            <packageType>type2</packageType>
+            <count>20</count>
+        </package>
+        <version>DROPS</version>
+    </medicine>
+
+    <medicine id="3">
+        <name>LamportBakery</name>
+        <group>PAIN_RELIEVERS</group>
+        <pharm>Ukraine</pharm>
+        <certificate>
+            <id>905932</id>
+            <organization>OperatingSystem</organization>
+            <date>2020-11-11</date>
+        </certificate>
+        <package>
+            <price>1.0</price>
+            <packageType>package1</packageType>
+            <count>1</count>
+        </package>
+        <version>TABLETS</version>
+    </medicine>
+</medicines>
